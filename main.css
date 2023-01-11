@@ -1,0 +1,64 @@
+
+#Calculator {
+  width: 400px;
+  border: solid 10px white;
+}
+
+button {
+  height: 100px;
+}
+
+.number-button {
+  font-size: 30px;
+  flex: 0 0 25%;
+}
+
+.Row {
+  display: flex;
+}
+
+.number {
+  color: white;
+  background-color: brown;
+  border: solid 20px white;
+  flex: 0 0 25%;
+}
+
+#output {
+  color: white;
+  background-color: black;
+  height: 100px;
+  flex: 0 0 100%;
+  text-align: right;
+  font-size: 30px;
+  line-height: 100px;
+}
+
+#Clear {
+  flex: 0 0 50%;
+}
+
+#zero {
+  flex: 0 0 75%;
+}
+
+body {
+  background-color: green;
+  width: 100%;
+  font-size: 30px;
+}
+
+.operator {
+  color: white;
+  font-size: 30px;
+  background-color: #df974c;
+  flex-grow: 1;
+}
+
+.operator:hover {
+  background-color: #dfb07e;
+}
+
+.operator:active {
+  background-color: #dd8d37;
+}
